@@ -1,0 +1,24 @@
+.welcomeMsg{
+background-color: hsla(120, 69%, 43%, 0.815);
+border-radius: 10px;
+font-weight: 100;
+box-shadow: 16px 8px 19px 15px hsla(110, 100%, 49%, 0.514) ;
+}
+
+.logInPrompt{
+background-color: hsla(0, 82%, 53%, 0.815);
+border-radius: 10px;
+font-weight: 100;
+box-shadow: 16px 8px 19px 15px hsla(0, 100%, 50%, 0.644) ;
+
+}
+
+
+.logInPrompt h1{
+padding: 15px;
+margin : 25px
+}
+.welcomeMsg h1 {
+padding: 15px;
+margin : 25px
+}
