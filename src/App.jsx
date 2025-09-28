@@ -5,7 +5,7 @@ import UserGreeting from './UserGreeting/userGreeting.jsx'
 import List from './List.jsx'
 import Button from "./Button/Button.jsx"
 import ProfilePic from "./ProfilePic.jsx";
-import Hooks from "./Hooks.jsx";
+import Hooks from "./useState/Hooks.jsx"
 
 function App() {
 
