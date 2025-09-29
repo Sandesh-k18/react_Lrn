@@ -6,6 +6,8 @@ import List from './List.jsx'
 import Button from "./Button/Button.jsx"
 import ProfilePic from "./ProfilePic.jsx";
 import Hooks from "./useState/Hooks.jsx"
+import OnChnge from "./onChngeEvent/onChnge.jsx";
+import ColorPicker from "./ColorPicker.jsx"
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
   return (
     <>
       <Header />
+      <ColorPicker />
       <Student name="Sandesh" age = {18} isStudent={true} />
       <ProfilePic></ProfilePic>
       <UserGreeting isLoggedIn = {true} username = "@Sandyy Bhai" />
@@ -27,6 +30,7 @@ function App() {
       <List items = {fruits} category= "fruits"/>
       <Button />
       <Hooks></Hooks>
+      <OnChnge></OnChnge>
       <Footer />
     </>
   );

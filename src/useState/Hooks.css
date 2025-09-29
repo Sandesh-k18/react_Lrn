@@ -2,10 +2,15 @@ button {
   margin-right: 50px;
 }
 
+button:hover {
+  background-color: #c08c8c;
+}
+
 button h2 {
   color: blue;
 }
-#counter {
-  color: #ff6600;
-
+[itemid="counter"] {
+  align-items: center;
+  justify-items: center;
+  color: #ff7d27;
 }

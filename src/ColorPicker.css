@@ -1,0 +1,15 @@
+.color-picker {
+  justify-content: center;
+  align-items: center;
+}
+
+.color-box {
+    height: 200px;
+    width: 200px;
+    margin-left: 99px;
+}
+[itemid= "p-selected-color"]{
+    margin-left: 115px;
+    width: 165px;
+    
+}
