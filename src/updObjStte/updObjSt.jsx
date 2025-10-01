@@ -14,7 +14,7 @@ function UpObjSt() {
     <>
       <div>
         <p>
-          Your favourite car is :
+          Your favourite car is : &nbsp;        
           <b>
             {car.year} {car.make} {car.model}
           </b>

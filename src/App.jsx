@@ -10,7 +10,7 @@ import OnChnge from "./onChngeEvent/onChnge.jsx";
 import ColorPicker from "./ColorPicker.jsx"
 import UpdterFun from "./updaterFuncn.jsx";
 import UpObjSt from "./updObjStte/updObjSt.jsx";
-
+import UpRrySt from "./updRryStte/updRrySt.jsx";
 function App() {
 
     const fruits = [
@@ -35,6 +35,7 @@ function App() {
       <OnChnge></OnChnge>
       <UpdterFun />
       <UpObjSt/>
+      <UpRrySt/>
       <Footer />
     </>
   );

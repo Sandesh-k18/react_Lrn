@@ -1,0 +1,21 @@
+.food-submit-btn {
+  background-color: blueviolet;
+  height: 47px;
+  width: 150px;
+  margin-left: 9px;
+}
+.food-input-btn {
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+}
+[itemID="food-li"] {
+  margin-top: 20px;
+  max-width: fit-content;
+  text-decoration: underline;
+}
+
+[itemID="food-li"]:hover {
+  cursor: pointer;
+  color: red;
+}
