@@ -8,6 +8,7 @@ import ProfilePic from "./ProfilePic.jsx";
 import Hooks from "./useState/Hooks.jsx"
 import OnChnge from "./onChngeEvent/onChnge.jsx";
 import ColorPicker from "./ColorPicker.jsx"
+import UpdterFun from "./updaterFuncn.jsx";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Button />
       <Hooks></Hooks>
       <OnChnge></OnChnge>
+      <UpdterFun />
       <Footer />
     </>
   );
