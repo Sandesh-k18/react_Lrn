@@ -9,6 +9,7 @@ import Hooks from "./useState/Hooks.jsx"
 import OnChnge from "./onChngeEvent/onChnge.jsx";
 import ColorPicker from "./ColorPicker.jsx"
 import UpdterFun from "./updaterFuncn.jsx";
+import UpObjSt from "./updObjStte/updObjSt.jsx";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Hooks></Hooks>
       <OnChnge></OnChnge>
       <UpdterFun />
+      <UpObjSt/>
       <Footer />
     </>
   );
