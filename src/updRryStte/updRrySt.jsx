@@ -17,7 +17,7 @@ function UpRrySt() {
         <h1>Foods</h1>
         <ul>
           {foods.map((food, index) => (
-            <li itemID="food-li" keys={index} onClick={() => deleteFood(index)}>
+            <li itemID="food-li" key={index} onClick={() => deleteFood(index)}>
               {food}
             </li>
           ))}

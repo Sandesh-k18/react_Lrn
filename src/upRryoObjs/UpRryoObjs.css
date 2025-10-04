@@ -1,0 +1,23 @@
+.add-car-btn{
+  background-color: blueviolet;
+  height: 47px;
+  width: 150px;
+    margin-top: 10px;
+  margin-left: 9px;
+}
+.input-btn {
+  margin-top: 10px;
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+}
+[itemID="cars-li"] {
+  margin-top: 20px;
+  max-width: fit-content;
+  text-decoration: underline;
+}
+
+[itemID="cars-li"]:hover {
+  cursor: pointer;
+  color: red;
+}

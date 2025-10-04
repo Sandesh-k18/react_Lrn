@@ -11,6 +11,8 @@ import ColorPicker from "./ColorPicker.jsx"
 import UpdterFun from "./updaterFuncn.jsx";
 import UpObjSt from "./updObjStte/updObjSt.jsx";
 import UpRrySt from "./updRryStte/updRrySt.jsx";
+import UpRryoObjs from "./upRryoObjs/UpRryoObjs.jsx";
+
 function App() {
 
     const fruits = [
@@ -36,6 +38,7 @@ function App() {
       <UpdterFun />
       <UpObjSt/>
       <UpRrySt/>
+      <UpRryoObjs/>
       <Footer />
     </>
   );
