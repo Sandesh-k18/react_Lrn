@@ -12,6 +12,7 @@ import UpdterFun from "./updaterFuncn.jsx";
 import UpObjSt from "./updObjStte/updObjSt.jsx";
 import UpRrySt from "./updRryStte/updRrySt.jsx";
 import UpRryoObjs from "./upRryoObjs/UpRryoObjs.jsx";
+import ToDoList from "./toDoList/toDoList.jsx"
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <ProfilePic></ProfilePic>
       <UserGreeting isLoggedIn = {true} username = "@Sandyy Bhai" />
       <UserGreeting isLoggedIn = {false}/>
+      <ToDoList/>
       <List items = {fruits} category= "fruits"/>
       <Button />
       <Hooks></Hooks>

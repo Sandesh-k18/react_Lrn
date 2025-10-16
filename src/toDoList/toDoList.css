@@ -1,0 +1,31 @@
+.to-do-list-div {
+  align-items: center;
+  align-content: center;
+}
+
+[itemID="add-task-btn"] {
+  background-color: blueviolet;
+  height: 47px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 9px;
+}
+.input-btn {
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+}
+.list-task-btn {
+  height: 20px;
+  width: 60px;
+  margin-right: 9px;
+  margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+}
+.text-list {
+  margin-top: auto;
+}

@@ -14,7 +14,7 @@ function UpRryoObjs() {
     setCarModel("");
   }
   function handleRemoveCar(index) {
-    setCars(c=>c.filter((_, i) => i !== index));
+    setCars((c) => c.filter((_, i) => i !== index));
   }
   function handleYearChange(e) {
     setCarYear(e.target.value);
@@ -31,7 +31,7 @@ function UpRryoObjs() {
       <div>
         <h2>List of Car Objects</h2>
         <h3>
-          Selected car : {carYear} {carMake} {carModel}{" "}
+          Selected car/s : {carYear} {carMake} {carModel}{" "}
         </h3>
         <ul>
           {cars.map((car, index) => (
