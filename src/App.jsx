@@ -14,8 +14,8 @@ import UpRrySt from "./updRryStte/updRrySt.jsx";
 import UpRryoObjs from "./upRryoObjs/UpRryoObjs.jsx";
 import ToDoList from "./toDoList/toDoList.jsx";
 import UseEffect from "./useEffect/useEffect.jsx";
-import CompB from "./useContext/CompB.jsx"
-
+import CompB from "./useContext/CompB.jsx";
+import UseRef from "./useRef/useRef.jsx";
 function App() {
   const fruits = [
     { name: "apple", calories: 109 },
@@ -29,7 +29,8 @@ function App() {
     <>
       <Header />
       <UseEffect />
-      <CompB/>
+      <UseRef />
+      <CompB />
       <ColorPicker />
       <Student name="Sandesh" age={18} isStudent={true} />
       <ProfilePic></ProfilePic>
