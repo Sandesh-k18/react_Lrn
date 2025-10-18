@@ -14,6 +14,7 @@ import UpRrySt from "./updRryStte/updRrySt.jsx";
 import UpRryoObjs from "./upRryoObjs/UpRryoObjs.jsx";
 import ToDoList from "./toDoList/toDoList.jsx";
 import UseEffect from "./useEffect/useEffect.jsx";
+import CompB from "./useContext/CompB.jsx"
 
 function App() {
   const fruits = [
@@ -28,6 +29,7 @@ function App() {
     <>
       <Header />
       <UseEffect />
+      <CompB/>
       <ColorPicker />
       <Student name="Sandesh" age={18} isStudent={true} />
       <ProfilePic></ProfilePic>
